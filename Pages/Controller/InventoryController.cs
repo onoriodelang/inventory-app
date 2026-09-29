@@ -1,12 +1,4 @@
-﻿            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error adjusting stock");
-                TempData["ErrorMessage"] = "Error adjusting stock. Please try again.";
-                return View(model);
-            }
-        }
-    }
-}using inventory_app.Pages.Model;
+using inventory_app.Pages.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace inventory_app.Pages.InventoryController
